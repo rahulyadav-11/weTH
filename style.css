@@ -1,0 +1,38 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image:  url("https://files.oaiusercontent.com/file-Jnxs7BxQyPUF3KA2KbVZhJ?se=2025-03-04T06%3A00%3A17Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3De3a4e0e2-8043-421c-8d10-e4803f2a82ee.webp&sig=Kzezf9WWS%2Bdr0L8EOrxdG13hiYXeTCnyXgyg43LKkp0%3D");
+        }
+        .container {
+            background: transparent;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        input {
+            padding: 10px;
+            border: none;
+            border-radius: 8px;
+            width: 80%;
+            margin-bottom: 10px;
+        }
+        button {
+            padding: 10px 15px;
+            border: none;
+            border-radius: 8px;
+            background: #ff7eb3;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #ff5277;
+        }
+        .weather-info {
+            margin-top: 20px;
+        }
+
